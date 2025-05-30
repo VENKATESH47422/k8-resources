@@ -3,12 +3,12 @@ kind: Pod
 metadata:
   name: label-demo
   labels:
-    course: "DevOps"
-    Trainer: "SivaKumar"
-  spec:
-# list of containers
+    course: DevOps
+    Trainer: "SivakumarReddy"
+spec:
+  # list of containers
   containers:
   - name: hello-pod
     image: nginx
-    ports: 
+    ports:
     - containerPort: 80
