@@ -3,12 +3,12 @@ kind: Pod
 metadata:
   name: multi-container
 spec:
-# list of containers
+  # list of containers
   containers:
   - name: nginx
     image: nginx
-    ports: 
+    ports:
     - containerPort: 80
-  - name: almalinx
-    image: almalinx:8
+  - name: almalinux
+    image: almalinux:8
     command: ["sleep", "300"]
