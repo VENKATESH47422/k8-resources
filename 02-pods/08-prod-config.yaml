@@ -2,8 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: config-pod
-  namespace: roboshop
-spec: 
+ spec: 
 # list of containers
 containers:
 - name: config-pod
