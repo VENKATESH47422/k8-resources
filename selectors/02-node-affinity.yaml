@@ -5,7 +5,7 @@ metadata:
 spec: 
   affinity:
     nodeAffinity:
-      requiredDuringSchedulingIgnoredDuringExecuting:
+      requiredDuringSchedulingIgnoredDuringExecution:
         nodeSelectorTerms:
         - matchExpressions:
           - key: project
